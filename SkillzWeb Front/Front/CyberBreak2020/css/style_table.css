@@ -1,0 +1,186 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(2,0,36);
+}
+	
+h1{
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-size: 150%;
+color: rgb(235, 235, 248);
+}
+
+table {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 20px;
+  background: rgb(235, 235, 248);
+  width: 80%;
+  border-collapse: collapse;
+  border: 3px solid rgb(2,0,36);
+  text-align: left;
+  margin: 10px auto 3px;
+  border-radius: 10px;
+}
+
+td {
+transition: .3s linear;
+}
+
+a{
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-size: 100%;
+/*color: #039;*/
+color: #000b17;
+/*font-weight: bold;*/
+text-decoration: none;
+
+}
+
+.table1 th {
+font-size: 20px;
+font-weight: normal;
+background: #b9c9fa;
+border: 2px solid rgb(2,0,36);
+/*color: #039;*/
+color: #000b17;
+font-weight: bold;
+padding: 8px;
+}
+.table1 td {
+background: rgb(235, 235, 248);
+border: 2px solid rgb(2,0,36);
+/*color: #059;*/
+color: #000b17;
+/*-weight: bold;*/
+padding: 12px;
+}
+.table1 td:hover {
+background: #ccddff; 
+}
+.table1 th:hover {
+background: #ccddff; 
+}
+
+.table2 th {
+font-size: 20px;
+font-weight: normal;
+background: #b9c9fa;
+border: 2px solid rgb(2,0,36);
+color: #000b17;
+padding: 8px;
+}
+.table2 td {
+background: rgb(235, 235, 248);
+border: 0px solid rgb(2,0,36);
+color: #000b17;
+padding: 8px;
+}
+.table2 td:hover {
+background: #ccddff; 
+}
+.table2 th:hover {
+background: #ccddff; 
+}
+
+/*имя пользователя*/
+.Name_client { 
+     color: black; 
+     font-size: 150%; 
+     font-family: 'Open Sans', Sans-Serif;
+	 font-weight: bolder;
+    }
+
+.Title_kurs{
+	 color: black; 
+     font-size: 130%; 
+     font-family: 'Open Sans', Sans-Serif;
+	 font-weight: bolder;
+}
+
+.nextbtn {
+	background-color: rgb(0, 0, 250);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+	border-radius: 20px;
+	
+}
+
+.nextbtn:hover {
+    opacity: 1;
+}
+
+.sendbtn {
+	background-color: rgb(0, 0, 250);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+	border-radius: 20px;
+	
+}
+
+.sendbtn:hover {
+    opacity: 1;
+}
+
+/*полоса прогресса*/
+.meter {
+        height: 10px;
+		width: 95%;
+        position: relative;
+        background: #555;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        padding: 10px;
+        -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+        -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+        box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+        display: block;
+        height: 100%;
+           -webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-right-radius: 8px;
+               -moz-border-radius-topright: 8px;
+            -moz-border-radius-bottomright: 8px;
+                   border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+            -webkit-border-top-left-radius: 20px;
+         -webkit-border-bottom-left-radius: 20px;
+                -moz-border-radius-topleft: 20px;
+             -moz-border-radius-bottomleft: 20px;
+                    border-top-left-radius: 20px;
+                 border-bottom-left-radius: 20px;
+        background-color: rgb(43,194,83);
+        background-image: -webkit-gradient(
+          linear,
+          left bottom,
+          left top,
+          color-stop(0, rgb(43,194,83)),
+          color-stop(1, rgb(84,240,84))
+         );
+        background-image: -moz-linear-gradient(
+          center bottom,
+          rgb(43,194,83) 37%,
+          rgb(84,240,84) 69%
+         );
+        -webkit-box-shadow:
+          inset 0 2px 9px  rgba(255,255,255,0.3),
+          inset 0 -2px 6px rgba(0,0,0,0.4);
+        -moz-box-shadow:
+          inset 0 2px 9px  rgba(255,255,255,0.3),
+          inset 0 -2px 6px rgba(0,0,0,0.4);
+        position: relative;
+        overflow: hidden;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница курса</title>
+  <link rel="stylesheet" href="../../css/style_table.css">
+</head>
+
+<body>
+
+<table class="table2">
+
+			<tr>
+				<td width=25% style="text-align: center"><a href="../../lk.html">Личный кабинет</a></td>
+				<td width=75% align = "center" colspan="2"><span class="Name_client">Название курса</span></td>
+			</tr>
+			
+			<tr>
+				<th width=25% > Прогресс освоения курса:</th>
+				<td width=75% colspan="2">
+					<div class="meter">
+						<span style="width: 1%"></span>
+					</div>
+				</td>
+			</tr>
+			
+<!--			<tr>
+				<th width=25% align="center">Этапы</th>
+				<th width=75% align="center">Шаги</th>
+			</tr>
+-->
+			<tr>
+			<th width=25% align="center"><a href = "../../kurs_page.html">Приветствие</a></th>
+			<!-- Ячейка для отображения контента-->
+				<td rowspan = "3" colspan="2"> Контент 9 </td>
+			</tr>
+			
+			<tr>
+				<th align="center" width=25%>Блок1
+					<br>
+					<a href = "step11.html">Этап1</a>
+					<br>
+					<a href = "step12.html">Этап2</a>
+					<br>
+					<a href = "step13.html">Этап3</a>
+				</th>
+			</tr>
+			
+			<tr>
+				<th align="center"width=25%>Блок2
+					<br>
+					<a href = "step21.html">Этап1</a>
+					<br>
+					<a href = "step22.html">Этап2</a>
+					<br>
+					<a href = "step23.html">Этап3</a>
+				</th>
+			</tr>
+			
+			<tr>
+				<th align="center" width=25%>Блок3
+					<br>
+					<a href = "step31.html">Этап1</a>
+					<br>
+					<a href = "step32.html">Этап2</a>
+					<br>
+					<a href = "step33.html">Этап3</a>
+				</th>
+				<td>
+<!-- форма выбора оценки этапа -->
+				<form>
+					<select id="select_rating" name="select_rating" required>
+						  <option></option>
+						  <option value="1">Отвратительно</option>
+						  <option value="2">Неудовлетворительно</option>
+						  <option value="3">Можно было бы и лучше</option>
+						  <option value="4">Хороший материал</option>
+						  <option value="5">Отличный материал</option>
+					</select>
+					<button type="submit"  class="nextbtn">Отправить</button>
+				</form>
+				</td>
+				<td width=25%>
+				<button class="nextbtn" onclick="document.location='step11.html'">Далее</button>
+				</td>
+			</tr>
+</table>
+	
+
+
+</body>
+</html>
